@@ -1,30 +1,23 @@
 .pad {
     background-color: blue;
-    width: 50px;
-    height: 50px;
     border: 0px;
     margin: 0px;
     padding: 0px;
+    flex:0 0 auto;
 }
  .filled {
     background-color: black;
 }
 
 #container {
-    display:grid;
-    width:800px;
-    height: 800px;
+    display:flex;
+    width:960px;
+    height: 960px;
     background-color: aqua;
     grid-gap: 0px 0px;
     gap:0px 0px;
-    grid-auto-flow: column;
-    grid-auto-rows: auto;
-    grid-auto-columns: auto;
     border: 0px;
     margin: 0px;
     padding: 0px;
-    grid-template-columns: repeat(16,50px);
-    grid-template-rows: repeat(16,50px);
+    flex-wrap: wrap;
 }
-
-
